@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F3;
+    color: #5C4033;
+}
+
+/* Banner superior */
+
+header{
+    background-color: #B07D62;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    margin: 0;
+    font-size: 42px;
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Presentación */
+
+.presentacion{
+    text-align: center;
+    padding: 30px;
+}
+
+.presentacion img{
+    border-radius: 15px;
+}
+
+/* Beneficios */
+
+.beneficios{
+    padding: 20px 50px;
+}
+
+.beneficios h2{
+    text-align: center;
+}
+
+/* Franja de contacto */
+
+.cta{
+    background-color: #D9B382;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.cta p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5C4033;
+}
+
+.cta a{
+    background-color: #B07D62;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cta a:hover{
+    opacity: 0.8;
+}
+
+/* Banner inferior */
+
+footer{
+    background-color: #B07D62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Links generales */
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    display: inline-block;
+    background-color: #6f4631;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: #d6a156;
+    color: #191616;
+}
+
+section{
+    margin: 50px;
+}
+
+.boton{
+    display: inline-block;
+    background-color: #8b4f2f;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.boton:hover{
+ color:black;
+ background-color:#75c454
+}
